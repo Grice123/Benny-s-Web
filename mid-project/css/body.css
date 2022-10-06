@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg5.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    overflow-x: hidden;
+    
+    box-shadow: 0 25px 45px rbga(0,0,0,0.1);
+  
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #cfccc9;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f0ed;
+}
+
+.foot{
+
+    margin-top: 0px;
+    width: 100vw;
+    height: 80px;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(251, 96, 0, 0.399);
+
+}
+
+.foot p{
+    line-height: 25px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000px;
+    color: rgb(0, 0, 0);
+}

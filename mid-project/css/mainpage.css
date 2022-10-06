@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+
+.second{
+    height: 0vh;
+    width: 100vw;
+    scroll-snap-align: start;
+}   
+
+
+li{
+    list-style: none;
+}
+
+.logo{
+    width: 100;
+    text-align: center;
+    margin-top: -10px;
+    height: 200px;
+    background-image: url("../img/selfie.jpg")
+}
+.logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 100px;
+
+}
+
+
+
+.logo h1{
+    cursor: pointer;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: px 0 50px 0;
+	margin:50px auto; 
+	font-weight: 500;
+    font-family: Ink Free;
+	text-align: center; 
+	color: #b7faf0; 
+    font-size:100px;
+	animation:bounce 2s infinite;
+
+}
+@keyframes bounce{
+    0%,100%,20%,50%,80%{
+       -webkit-transform:translateY(0);
+    }40%{
+       -webkit-transform:translateY(70px);
+    }60%{
+       -webkit-transform:translateY(30px);
+    }
+ }
+.logo h1:hover{
+    color: #ce8460;
+}
+
+.bk{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 220px;
+    float: left;
+    margin: 70px -40px 50px 105px;
+    background: #fff0b6;
+    box-shadow: 0 0 15px rgb(231, 255, 142);
+    border-radius: 30px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: all 0.5s ease 0s;
+}
+.bk:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.img1{
+    overflow: hidden;
+}
+.block1 .img{
+    background-image: url("../img/poro1.jpg");
+}
+.block2 .img{
+    background-image: url("../img/poro2.jpg");
+}
+.block3 .img{
+    background-image: url("../img/poro3.jpg");
+}
+.block4 .img{
+    background-image: url("../img/poro4.jpg");
+}
+.block5 .img{
+    background-image: url("../img/poro6.jpg");
+}
+
+.bk .img{
+    height: 140px;
+    width: 220px;
+    background-size:contain;
+    transition: all 0.5s ease 0s;
+    opacity: 0.8;
+}
+
+.bk .img:hover{
+    transform: scale(1.1);
+}
+
+.bk .txt{
+    height: 310px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.bk .txt h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px #db5377;
+    color: rgb(84, 209, 207);
+    height: 30px;
+    line-height: 30px;
+}
+
+.bk .txt p{
+    font-family:fantasy;
+    text-align: center;
+    margin-top: 30px;
+    font-size:medium;
+    font-weight: 100;
+    word-wrap: break-word;
+    color: #000000;
+}
+
+.about{
+    width:  800px;
+
+}
+.about h3{
+    color: #ce8460;
+    font-size: large;
+}
+.about h3{
+    content :" ";
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    margin-right: 10px;
+    background: #333;
+}
+.about p{
+    line-height: 1.0;
+    margin: 20px 0;
+    text-indent: 2em;
+}
+
+
+
+
+
+@keyframes load{
+    0%{
+        background-position-y: 100px;
+        opacity: 0;
+    }
+    100%{
+        background-position-y: 0px;
+        opacity: 1;
+    }
+
+}
